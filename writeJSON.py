@@ -11,6 +11,6 @@ def write_json_file(data, file_path):
 
 if __name__ == "__main__":
     data_to_save = {"key": "value"}
-
+ 
     file_path = "path/to/your/output.json"
     write_json_file(data_to_save, file_path)
